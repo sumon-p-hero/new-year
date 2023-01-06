@@ -4,5 +4,38 @@
 }
 
 .banner-section{
-    background-image: url("//images/banner/banner3.png");
+    background-image: url("../images/banner/banner3.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+.banner-section {
+    text-align: right;
+    color: #FFFFFF;
+
+}
+.banner-text{
+    text-align: right;
+    padding-top: 216px;
+    padding-right: 230px;
+}
+.banner-section h1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76.25px;
+}
+.banner-section p{
+    padding-top: 24px;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 24px;
+}
+.banner-btn{
+   padding: 15px 20px;
+   border-radius: 5px;
+   border: none;
+   font-size: 20px;
+   color: #005FAC;
+
+}
+   
