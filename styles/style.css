@@ -3,21 +3,19 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* banner styles */
+
 .banner-section{
     background-image: url("../images/banner/banner3.png");
-    height: 100vh;
+    height: 808px;
     background-repeat: no-repeat;
     background-position: center;
-}
-.banner-section {
-    text-align: right;
-    color: #FFFFFF;
-
 }
 .banner-text{
     text-align: right;
     padding-top: 216px;
     padding-right: 230px;
+    color: #FFFFFF;
 }
 .banner-section h1{
     font-weight: 700;
@@ -40,4 +38,41 @@
     font-size: 20px;
     color: #005FAC;
 }
-   
+
+/* failure section styles */
+
+.failure-section{
+    display: flex;
+    margin-top: 130px;
+    max-width: 1072px;
+     height: 700px; 
+    padding: 0 206px 370px;
+    gap: 90px;
+}
+.failure-text{
+    text-align: left;
+    padding-top: 250px;
+}
+.failure-text h3{
+    font-size: 40px;
+    line-height: 46px;
+    color: #151414;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.failure-text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+.failure-text li{
+    list-style: none;
+    line-height: 30px;
+    font-size: 16px;
+    color: #444343;
+}
+.check-icon{
+    color: #0cd80c;
+}
