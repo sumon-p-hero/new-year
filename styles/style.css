@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner-section{
+    background-image: url("//images/banner/banner3.png");
+}
