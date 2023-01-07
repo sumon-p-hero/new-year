@@ -44,10 +44,10 @@
 .failure-section{
     display: flex;
     margin-top: 130px;
-    max-width: 1072px;
-     height: 700px; 
-    padding: 0 206px 370px;
+    padding-left: 230px;
+    padding-right: 230px;
     gap: 90px;
+    margin-bottom: 130px;
 }
 .failure-text{
     text-align: left;
@@ -76,3 +76,35 @@
 .check-icon{
     color: #0cd80c;
 }
+
+/* my Plan Styles */
+
+.my-plan-section{
+    text-align: center;
+    padding: 0 230px;
+}
+.my-plan{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.my-plan-section h2{
+    padding-bottom: 50px;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 700;
+}
+.my-plan h3{
+    padding-top: 27px;
+    padding-bottom: 16px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.my-plan p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #737272;
+}
+
