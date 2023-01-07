@@ -154,6 +154,9 @@
     padding-top: 10px;
     padding-right: 7px;
 }
+.social-img a{
+    text-decoration: none;
+}
 .subscribe-text h3{
     font-size: 25px;
     padding-bottom: 20px;
